@@ -8,35 +8,227 @@
    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class=" center">
+<body>
    <header class="the_header flex ">
-      <a href="#home">
-         <h2>Pravhjot <span class="span_text glow">Singh</span></h2>
+      <a href="#home" class="top_left_name ">
+         Pravhjot <span class="span_text glow ">Singh</span>
       </a>
 
-      <!-- <img class="svg menu " src="./svgs/menu.svg" alt=""> -->
+      <div class='svg'style="fill: currentcolor;">
+         <svg class="menu_icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true"><path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+         </svg>
+      </div>
 
-      <nav class="center">
-         <a href="#home">Home</a>
+      <nav class="navbar center ">
+         <a href="#home" class="active">Home</a>
          <a href="#education">Education</a>
+         <a href="#services">Services</a>
          <a href="#projects">Projects</a>
          <a href="#contact">Contact</a>
       </nav>
    </header>
-   <main>
-      <div class="s1_home  display flex">
-         <div class="my_brief_intro flex fcol">
-            <div class="Hey_its_Pravh_i_am_a flex fcol">
-               <h1 class="hey_its">Hey, It's <span class="span_text">Pravh</span></h1>
-               <h2 class="i_am_a">I'm a <span class="span_text typin_text">Web Developer</span></h2>
-            </div>
-            <p class="about_me_in_brief">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in consequuntur facere iure,
-               labore eos? Ipsa quo hic voluptatem illum.</p>
+
+   <section class="s1_home center" id="home">
+      <div class="my_brief_intro flex fcol ">
+         <div class="Home_Headings flex fcol ">
+            <h1 class="hey_its ">Hey, It's
+               <span class="span_text">Pravh</span>
+            </h1>
+            <h3 class="i_am_a flex ">I'm a&nbsp;
+               <span class="span_text typin_text "></span>
+            </h3>
          </div>
-         <img class="my_img" src="pravh.jpg" alt="my_img">
+         <p class="about_me_in_brief ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus deserunt quam magnam eaque eligendi
+            expedita mollitia cupiditate non quibusdam quas assumenda tempora ad rem, consequatur velit iure illum
+            error? Veniam!
+         </p>
+         <span class="links">
+            <a href="#"><img src="insta.png" alt=""></a>
+            <a href="#"><img src="Spotify.png" alt=""></a>
+            <a href="#"><img src="insta.png" alt=""></a>
+            <a href="#"><img src="Spotify.png" alt=""></a>
+         </span>
+         <span class="home_intro_btns flex">
+            <button class="btn filled_btn">Hire</button>
+            <button class="btn">Contact</button>
+         </span>
       </div>
-   </main>
-   <script src="script.js"></script>
+      <div class="my_img"><img src="Pravh.jpg" alt="my_img"></div>
+   </section>
+
+   <section class="s2_education" id="education">
+      <h2 class="heading">Education</h2>
+
+      <div class="timeline_items">
+
+         <div class="timeline_item flex fcol">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date">2020</div>
+            <div class="timeline_content flex fcol">
+               <h3>10th</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Perspiciatis dolores facere ab commodi fugit. Fugiat velit porro doloremque doloribus voluptas.</p>
+            </div>
+         </div>
+
+         <div class="timeline_item flex fcol">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date">2022</div>
+            <div class="timeline_content flex fcol">
+               <h3>10+2</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolores facere ab commodi fugit. Fugiat velit porro doloremque doloribus voluptas.</p>
+            </div>
+         </div>
+
+         <div class="timeline_item flex fcol">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date">2026</div>
+            <div class="timeline_content flex fcol">
+               <h3>Graduation</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolores facere ab commodi fugit. Fugiat velit porro doloremque doloribus voluptas.</p>
+            </div>
+         </div>
+
+         <div class="timeline_item flex fcol">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date">2027</div>
+            <div class="timeline_content flex fcol">
+               <h3>Internship</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolores facere ab commodi fugit. Fugiat velit porro doloremque doloribus voluptas.</p>
+            </div>
+         </div>
+
+         <div class="timeline_item flex fcol">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date">2029</div>
+            <div class="timeline_content flex fcol">
+               <h3>Job 1</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolores facere ab commodi fugit. Fugiat velit porro doloremque doloribus voluptas.</p>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+   <section class="s3_services" id="services">
+      <h2 class="heading">Services</h2>
+
+      <div class="services_cont">
+
+         <div class="service_box">
+            <div class="service_info flex fcol">
+               <h4>Frontend Development</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nobis deserunt nihil quae voluptatem quia facere at fugiat impedit. Officiis, veniam explicabo.</p>
+            </div>
+         </div>
+         <div class="service_box">
+            <div class="service_info flex fcol">
+               <h4>Designing Suggestions</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nobis deserunt nihil quae voluptatem quia facere at fugiat impedit. Officiis, veniam explicabo.</p>
+            </div>
+         </div>
+         <div class="service_box">
+            <div class="service_info flex fcol">
+               <h4>End User Perspectives</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nobis deserunt nihil quae voluptatem quia facere at fugiat impedit. Officiis, veniam explicabo.</p>
+            </div>
+         </div>
+         <div class="service_box">
+            <div class="service_info flex fcol">
+               <h4>Gameplay Testing</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nobis deserunt nihil quae voluptatem quia facere at fugiat impedit. Officiis, veniam explicabo.</p>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+   <section class="s4_projects" id="projects">
+      <div class="projects_cont center fcol">
+         <h2 class="heading">Projects</h2>
+
+         <div class="wrapper">
+            <div class="project_item center fcol">
+               <img class="project_photo" src="Spotify.png" alt="">
+               <h2 class="project_name">Project 1</h2>
+               <h3 class="tech_used">
+                  <li>{ HTML</li>
+                  <li>CSS</li>
+                  <li>JS }</li>
+               </h3>
+               <p class="project_info">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta enim optio debitis quia saepe. Nam cupiditate numquam in, minima libero unde aliquid, voluptatum at perspiciatis molestiae ad repudiandae et nisi!
+               </p>
+            </div>
+   
+            <div class="project_item center fcol">
+               <img class="project_photo" src="Spotify.png" alt="">
+               <h2 class="project_name">Project 2</h2>
+               <h3 class="tech_used">
+                  <li>{ REACT }</li>
+               </h3>
+               <p class="project_info">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta enim optio debitis quia saepe. Nam cupiditate numquam in, minima libero unde aliquid, voluptatum at perspiciatis molestiae ad repudiandae et nisi!
+               </p>
+            </div>
+   
+            <div class="project_item center fcol">
+               <img class="project_photo" src="Spotify.png" alt="">
+               <h2 class="project_name">Project 3</h2>
+               <h3 class="tech_used">
+                  <li>{ MERN }</li>
+               </h3>
+               <p class="project_info">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta enim optio debitis quia saepe. Nam cupiditate numquam in, minima libero unde aliquid, voluptatum at perspiciatis molestiae ad repudiandae et nisi!
+               </p>
+            </div>
+   
+         </div>
+      </div>
+      
+   </section>
+
+   <section class="s5_contact" id="contact">
+      <h2 class="heading">Contact <span class="span_text">Me</span></h2>
+
+      <form class="contact_inputs center" action="">
+         <div class="input_boxes center fcol">
+            <div class="input_box center fcol">
+               <input type="text" placeholder="Full Name">
+               <input type="email" placeholder="Email Id">
+            </div>
+            <div class="input_box center fcol">
+               <input type="number" placeholder="Phone Number">
+               <input type="text" placeholder="Subject">
+            </div>
+         </div>
+         <div class="input_finals center fcol">
+            <textarea id="" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="submit_btn filled_btn">
+         </div>
+      </form>
+   </section>
+
+   <footer class="footer center fcol">
+      <div class="social center">
+         <a href="#"><img src="insta.png" alt=""></a>
+         <a href="#"><img src="Spotify.png" alt=""></a>
+         <a href="#"><img src="insta.png" alt=""></a>
+         <a href="#"><img src="Spotify.png" alt=""></a>
+      </div>
+      <ul class="list center">
+         <li><a href="#">FAQs</a></li>
+         <li><a href="#">Services</a></li>
+         <li><a href="#">About Me</a></li>
+         <li><a href="#">Contact</a></li>
+         <li><a href="#">Feedback</a></li>
+      </ul>
+      <p class="copyright">
+         © Pravhjot Singh | All RIghts Reserved, By Someone Else
+      </p>
+      
+   </footer>
+      <script src="script.js"></script>
 </body>
 
 </html>
