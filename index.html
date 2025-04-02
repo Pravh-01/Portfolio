@@ -191,19 +191,19 @@
    <section class="s5_contact" id="contact">
       <h2 class="heading">Contact <span class="span_text">Me</span></h2>
 
-      <form class="contact_inputs center" action="">
+      <form class="contact_inputs center" action="https://formsubmit.co/pravhjot2004@gmail.com" method="POST">
          <div class="input_boxes center fcol">
             <div class="input_box center fcol">
-               <input type="text" placeholder="Full Name">
-               <input type="email" placeholder="Email Id">
+               <input type="text" name="Full_Name" placeholder="Full Name" required>
+               <input type="email" name="Email" placeholder="Email Id" required>
             </div>
             <div class="input_box center fcol">
-               <input type="number" placeholder="Phone Number">
-               <input type="text" placeholder="Subject">
+               <input type="number" name="Phone_Number" placeholder="Phone Number" required>
+               <input type="text" name="Subject" placeholder="Subject" required>
             </div>
          </div>
          <div class="input_finals center fcol">
-            <textarea id="" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="Message" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="submit_btn filled_btn">
          </div>
       </form>
